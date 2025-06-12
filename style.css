@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0e1621;
+  color: #f0f0f0;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  color: #00c3ff;
+}
+form {
+  background-color: #1c2733;
+  padding: 20px;
+  border-radius: 8px;
+}
+label {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 14px;
+}
+input[type="number"] {
+  width: 60px;
+  padding: 4px;
+  font-size: 1rem;
+  background-color: #2c3e50;
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #00c3ff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0091c7;
+}
+.result-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#result {
+  background-color: #202d3a;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+#result ol {
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+#attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#attributes div {
+  margin-bottom: 25px;
+}
+#attributes h3 {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+#attributes label {
+  display: block;
+  background-color: #1f2a38;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #666;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+#attributes label:hover {
+  background-color: #C8102E;
+  border-color: #666;
+}
+#attributes input[type="number"] {
+  float: right;
+  width: 60px;
+  padding: 4px;
+  font-size: 14px;
+}
+.navbar {
+  width: 100%;
+  background-color: #111c29;
+  display: flex;
+  justify-content: space-around;
+  padding: 14px 0;
+  border: 2px solid #00c3ff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.navbar .nav-link {
+  color: #00c3ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+.navbar .nav-link:hover {
+  background-color: #C8102E;
+  color: #ffffff;
+}
