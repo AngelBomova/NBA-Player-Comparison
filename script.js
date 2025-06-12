@@ -1,3 +1,4 @@
+
 const ATTRIBUTES = [
   "Close Shot", "Mid Range Shot", "Three Point Shot", "Free Throw",
   "Shot IQ", "Offensive Consistency", "Layup", "Standing Dunk",
@@ -9,18 +10,8 @@ const ATTRIBUTES = [
   "Pass IQ", "Pass Vision", "Offensive Rebound", "Defensive Rebound"
 ];
 
-let players = {};
-
 window.addEventListener("DOMContentLoaded", () => {
   buildForm();
-  fetch("players2k25.json")
-    .then(res => res.json())
-    .then(data => {
-      players = data;
-    })
-    .catch(err => {
-      console.error("Failed to load players2k25.json:", err);
-    });
   document.getElementById("submitBtn").addEventListener("click", onSubmit);
 });
 
